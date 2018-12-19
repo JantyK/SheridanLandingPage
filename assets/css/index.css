@@ -33,6 +33,10 @@ body {
   text-align: center;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .form-control:focus {
   border-color: #cccccc;
   -webkit-box-shadow: none;
@@ -84,6 +88,19 @@ body {
   width: 100%;
   height: 100%;
   line-height: 32px !important;
+}
+
+#terms {
+  padding: 16px;
+  color: rgb(184, 173, 173);
+}
+
+span {
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
